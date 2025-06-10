@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.cardapio-container {
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(to bottom right, #fef6f9, #f3f8f9);
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 1200px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.cardapio-container h2 {
+  color: #444;
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+
+.pratos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+  padding: 0 20px;
+}
+
+.prato-card {
+  background-color: #fff8fc;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.prato-card:hover {
+  transform: scale(1.03);
+}
+
+.prato-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.prato-card h3 {
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.prato-card p {
+  color: #555;
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+.delete-button {
+  background-color: #ffb6c1;
+  color: white;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #ff99aa;
+  transform: scale(1.03);
+}
+
+.voltar-button {
+  background-color: transparent;
+  color: #888;
+  padding: 10px 20px;
+  margin-top: 40px;
+  font-size: 1.1rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.voltar-button:hover {
+  background-color: #f5f5f5;
+  color: #555;
+}

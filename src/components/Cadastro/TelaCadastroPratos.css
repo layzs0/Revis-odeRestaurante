@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); 
+
+/* Estilo para o container principal do formulário */
+.cadastrar-prato-container {
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom right, #fef6f9, #f3f8f9);
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 550px;
+  width: 90%;
+  margin: 2rem auto;
+  transition: all 0.3s ease;
+}
+
+.cadastrar-prato-container h2 {
+  color: #444;
+  margin: 0 0 24px 0;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+/* Estilo para o formulário */
+.cadastrar-prato-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 18px;
+}
+
+/* Inputs e selects com visual pastel */
+.cadastrar-prato-form input,
+.cadastrar-prato-form select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Dancing Script', cursive;
+  color: #555;
+  background-color: #fff8fc;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cadastrar-prato-form input:focus,
+.cadastrar-prato-form select:focus {
+  outline: none;
+  border-color: #ffb6c1;
+  box-shadow: 0 0 0 3px rgba(255, 182, 193, 0.3);
+}
+
+.cadastrar-prato-form ::placeholder {
+  color: #aaa;
+}
+
+/* Botão de enviar em tom rosa suave */
+.cadastrar-prato-form button[type="submit"] {
+  background-color: #ffb6c1;
+  color: white;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cadastrar-prato-form button[type="submit"]:hover {
+  background-color: #ff99aa;
+  transform: scale(1.03);
+}
+
+/* Botão de voltar com toque delicado */
+.voltar-button {
+  background-color: transparent;
+  color: #888;
+  padding: 10px 20px;
+  margin-top: 24px;
+  font-size: 1rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.voltar-button:hover {
+  background-color: #f5f5f5;
+  color: #555;
+}
