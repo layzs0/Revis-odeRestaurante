@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import {react, useState } from "react";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './TelaCadastroPratos.css'; // Caso queira estilizar
