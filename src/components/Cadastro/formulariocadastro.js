@@ -31,7 +31,7 @@ export default function FomularioCadastro() {
         try {
             console.log('Enviando dados para o backend:', dadosPratos);
 
-            const response = await axios.post('https://atividadedeploy-wxbq.onrender.com', dadosPratos);
+            await axios.post('https://atividadedeploy-wxbq.onrender.com', dadosPratos);
 
             alert('Prato cadastrado com sucesso!');
             navigate('/');
