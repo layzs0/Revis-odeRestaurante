@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 @RestController
-@CrossOrigin (origins = "*")
 @RequestMapping("/Prato")
+@CrossOrigin (origins = "*")
 public class PratoController {
 
     private PratoService pratoService;
