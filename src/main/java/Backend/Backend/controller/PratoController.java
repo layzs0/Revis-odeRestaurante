@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 @RestController
 @RequestMapping("/Prato")
-@CrossOrigin (origins = "*")
+@CrossOrigin (origins = "https://atividadedeployfront.onrender.com")
 public class PratoController {
 
     private PratoService pratoService;
