@@ -31,7 +31,7 @@ const Cardapio = () => {
 
     // Função para deletar prato
     const deletarPrato = (id) => {
-        axios.delete(`https://atividadedeploy-wxbq.onrender.com${id}`)
+        axios.delete(`https://atividadedeploy-wxbq.onrender.com/Prato/${id}`)
             .then(() => {
                 // Atualiza a lista de pratos após a exclusão
                 setPratos(pratos.filter(prato => prato.id !== id));
